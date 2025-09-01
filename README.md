@@ -1,12 +1,77 @@
-# React + Vite
+📝 React To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive To-Do List App built with React.js that allows users to manage their daily tasks efficiently.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Add new tasks
 
-## Expanding the ESLint configuration
+✅ Mark tasks as completed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🗑️ Delete tasks
+
+✏️ Edit tasks
+
+📂 Filter tasks (All / Completed / Pending)
+
+💾 Data persistence with LocalStorage
+
+🎨 Responsive UI with clean design
+
+🛠️ Tech Stack
+
+Frontend: React.js, CSS
+
+State Management: React Hooks (useState, useEffect)
+
+Data Persistence: LocalStorage
+
+Build Tool: Vite / CRA (depending on your setup)
+
+📂 Project Structure
+src/
+├── components/
+│   ├── TodoForm.js
+│   ├── TodoItem.js
+│   └── TodoList.js
+├── App.js
+├── App.css
+└── index.js
+
+⚡ Getting Started
+
+Clone the repo:
+
+git clone https://github.com/PritishaSingh/Todo-List.git
+cd Todo-List
+
+
+Install dependencies:
+
+npm install
+
+
+Run the project:
+
+npm run dev
+
+
+Open in browser:
+
+http://localhost:5173
+
+📸 Screenshots
+
+(Add screenshots here once you run your app)
+
+🌱 Future Enhancements
+
+🌙 Dark Mode support
+
+📅 Due dates & reminders
+
+🏷️ Task categories/tags
+
+🔄 Drag & drop task reordering
+
+☁️ Backend integration (MongoDB / Firebase)
